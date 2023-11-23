@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/authorization.css">
+    <script src="https://kit.fontawesome.com/2421f70b85.js" crossorigin="anonymous"></script>
+    <title>Авторизация</title>
+</head>
+<body class="formaauthorization">
+    <div class="container mt-4">
+            <form class="form__authorization" action="validation-form/auth.php" method="post">
+                <div class="wrapper">
+                    <a href="index.html"><i class="fas fa-arrow-up"></i></a>
+                </div>
+                <h1 class="form__title">Авторизация</h1>
+                <div class="form__group">
+                    <label class="form__label1">Логин</label>
+                    <input class="form__input1" type="text" id="login" name="login">
+                </div>
+                <div class="form__group">
+                    <label class="form__label2">Пароль </label>
+                    <input class="form__input2" type="password" id="password" name="password">
+                </div>
+                <button class="form__button" type="submit">Войти</button>
+                <h1 class="tekst50">У вас нету аккаунта? - <a class="tekst51" href="registration.html">Зарегистрируйтесь!</a></h1>
+            </form>
+    </div>
+</body>
+</html>
