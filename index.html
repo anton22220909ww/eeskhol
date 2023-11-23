@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://kit.fontawesome.com/2421f70b85.js" crossorigin="anonymous"></script>
+    <title>Главная</title>
+</head>
+<body>
+    <a name="menu">
+    <header>
+        <div class="menu">
+            <div class="header__logo">
+                <a href="index.html"><img class="logo" src="img/logo.png"></a>
+            </div>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li><a class="header__link" href="index.html">Главная</a></li>
+                    <li><a class="header__link" href="kurs.html">Курсы </a></li>
+                    <li><a class="header__link" href="kontakty.html">Контакты</a></li>
+                </ul>
+            </nav>    
+            <a href="authorization.html"><button class="authorization">Войти</button></a>
+        </div>
+    </header>
+    </a>
+    <main>
+        <section class="slider">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/Slider1.jpg">
+                    <h1 class=tekst1>Eschool<br>лучшая онлайн <br>школа в России</h1>
+    
+                    <div class="pomoshch__v__vybore">
+                        <h1 class="tekst3">Запись на первый урок<br>
+                           Первый урок бесплатный
+                            <br>Удобство для вас</h1>
+                        <form>
+                            <input class="email" type="email" name="login" placeholder="Введите ваш Email">
+                            <input class="button__submit" type="submit" value="Тестироваться ">
+                        </form>
+                    </div>
+                </div>    
+                
+                </div>
+                <div class="swiper-pagination"></div>
+
+                
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+            <script>
+                const swiper = new Swiper('.swiper', {
+                loop: true,
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            });
+            </script>
+        </section>
+        <section class="kvesty">
+            <h1 class="tekst6">Наши Курсы</h1>
+            <h1 class="tekst7">У нас есть курсы на любой уровень знаний </h1>
+            <div class="spisok__kvestov">
+                <div class="kvest"><img src="img/Slider2.jpg">
+                    <h1 class="quest__age1"> Студенческий</h1>
+                </div>
+                <div class="kvest"><img src="img/Slider3.jpg">
+                    <h1 class="quest__age2">Профессианальный</h1>
+               
+                </div>
+                <div class="kvest"><img src="img/Slider4.jpg">
+                    <h1 class="quest__age3">Детский </h1>
+                 
+                </div>
+            </div>
+           
+            </div>
+            <div class="fakty__o__kompanii">
+                <h1 class="fakty">4 факта о нас </h1>
+                <div class="icons__kompanii">
+                    <div class="belyy__kruzhok">
+                        <img src="img/karta.png">
+                    </div>
+                    <div class="belyy__kruzhok">
+                    <img src="img/polzovateli.png">
+                    </div>
+                    <div class="belyy__kruzhok">
+                    <img class="vremya" src="img/vremya.png">
+                    </div>
+                    <div class="belyy__kruzhok">
+                    <img src="img/pobeda.png">
+                    </div>
+                </div>
+                <h1 class="kolichestvo__prepodov">10</h1>
+                <h1 class="kolichestvo__posititeley">9999+</h1>
+                <h1 class="vremya__raboti">24/7</h1>
+                <h1 class="urok">1 </h1>
+                <h1 class="kolichestvo__prepodov2">Преподователей </h1>
+                <h1 class="kolichestvo__posititeley2">Посетителей</h1>
+                <h1 class="vremya__raboti2">Время работы</h1>
+                <h1 class="urok2">Бесплатный урок </h1>
+            </div>
+        </section>
+        <section class="otzyvy">
+            <h1 class="tekst13">Отзывы</h1>
+            <h1 class="tekst14">Реальные отзывы наших учеников .</h1>
+            <div class="blocks__otzyvy">
+                <div class="block__otzyvy">
+                    <img src="img/Otzyvy1.jpg">
+                    <h1 class="tekst15">Мне нравится, сам учусь тут, <br>педагоги хорошие и очень крутой коллектив<br></h1>
+                    <h1 class="tekst16">Олег Корнев </h1>
+                    <h1 class="tekst17">г. Омск</h1>
+                </div>
+                <div class="block__otzyvy">
+                    <img src="img/Otzyvy2.jpg">
+                    <h1 class="tekst15">Я не пожалела, что выбрала<br> онлайн школу <br>Eschool</h1>
+                    <h1 class="tekst16">Василиса Григорьева </h1>
+                    <h1 class="tekst17">г. Астрахань</h1>
+                </div>
+                <div class="block__otzyvy">
+                    <img src="img/Otzyvy3.jpg">
+                    <h1 class="tekst15">Отличная школа .<br>Сам прошел от<br> базового до <br> профессианального курса<br>Советую;)</h1>
+                    <h1 class="tekst16">Павел Криволапов</h1>
+                    <h1 class="tekst17">г. Сочи</h1>
+                </div>
+            </div>
+        </section>
+        <section class="avtory">
+            <a name="avtory">
+            <h1 class="tekst18">Обычно ученики выделяют 3 преподователей </h1>
+            <h1 class="tekst19">Наши преподователи </h1>
+            <div class="img__avtory">
+                <img src="img/avtor1.jpg">
+                <img src="img/avtor2.jpg">
+                <img src="img/avtor3.jpg">
+            </div>
+            <h1 class="tekst20">Михина Анна</h1>
+            <h1 class="tekst21">Педеагог(курс Студенческий)</h1>
+            <h1 class="tekst22">Алия Курмашева</h1>
+            <h1 class="tekst23">Педагог (курс Детский )</h1>
+            <h1 class="tekst24">Виталий Аюмов</h1>
+            <h1 class="tekst25">Педагог(курс Профессианальный)</h1> 
+        </section>
+    </main>
+    <footer>
+        <section class="footer">
+            <a href="index.html"><h1 class="tekst30">Eschool</h1></a>
+            <nav class="footer__nav">
+                <ul class="footer__list">
+                    <li><a class="footer__link" href="index.html">Главная</a></li>
+                    <li><a class="footer__link" href="kurs.html">Курсы</a></li>
+                    <li><a class="footer__link" href="kontakty.html">Контакты</a></li>
+                </ul>
+            </nav>   
+            <h1 class="tekst31">+8 800 555 35 35</h1>
+            <h1 class="tekst32">eschool@.com</h1>
+           
+        </section>
+    </footer>
+    <div class="arrow-up">
+        <a href="#menu"><i class="fas fa-arrow-up"></i></a>
+    </div>
+</body>
+</html>
