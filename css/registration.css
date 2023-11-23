@@ -1,0 +1,180 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    cursor: pointer;
+}
+
+.formaregistration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E6E4EB;
+}
+
+.form {
+    width: 350px;
+    height: 475px;
+    padding: 30px 30px 30px 30px;
+    border-radius: 15px;
+    background-color: #8338EC;
+}
+
+.wrapper a {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-top: -10px;
+    text-align: center;
+    display: block;
+    color: white;
+    transform: rotate(-90deg);
+}
+
+.form__authorization {
+    width: 350px;
+    height: 420px;
+    padding: 30px 30px 30px 30px;
+    border-radius: 15px;
+    background-color: #8338EC;
+}
+
+.form__input1 {
+    position: relative;
+    width: 345px;
+    height: 45px;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 10px;
+    color: #fff;
+    border: 2px solid #fff ;
+    border-radius: 10px;
+    background-color: #8338EC;
+    outline: none;
+    transition: 0.3s;
+}
+
+.form__input2 {
+    position: relative;
+    width: 345px;
+    height: 45px;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 40px;
+    color: #fff;
+    border: 2px solid #fff ;
+    border-radius: 10px;
+    background-color: #8338EC;
+    outline: none;
+    transition: 0.3s;
+}
+
+.form__input3 {
+    position: relative;
+    width: 345px;
+    height: 45px;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 40px;
+    color: #fff;
+    border: 2px solid #fff ;
+    border-radius: 10px;
+    background-color: #8338EC;
+    outline: none;
+    transition: 0.3s;
+}
+
+#vvodregistration:focus {
+    border: 2px solid #383838;
+}
+
+.form__title {
+    position: relative;
+    font-size: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.form__label1 {
+    position: absolute;
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    margin-top: -10px;
+}
+
+.form__label2 {
+    position: absolute;
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.form__label3 {
+    position: absolute;
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.form__group {
+    position: relative;
+}
+
+.form__button {
+    position: relative;
+    width: 353px;
+    height: 48px;
+    background-color: #fff;
+    color: #383838;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.tekst50 {
+    position: relative;
+    width: 100%;
+    height: 17px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.tekst51 {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+}
