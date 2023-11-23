@@ -1,0 +1,337 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    cursor: pointer;
+}
+
+.menu {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    top: 8px;
+    background-color: white;
+}
+
+.logo {
+    position: absolute;
+    width: 200px;
+    height: 120px;
+    margin-top: -25px;
+    margin-left: 300px;
+}
+
+.header__nav {
+    position: absolute;
+    width: 720px;
+    height: 15px;
+    right: 350px;
+    top: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.header__list {
+    display: flex;
+    list-style-type: none;
+    gap: 80px;
+}   
+.glavnaya {
+    color: #8338EC;
+}
+
+.bilety__ {
+    color: #8338EC;
+}
+
+.kontakty__ {
+    color: #8338EC;
+}
+
+.header__link {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.authorization {
+    position: absolute;
+    width: 120px;
+    height: 43px;
+    background-color: #8338EC;
+    color: white;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    top: 10px;
+    right: 300px;
+    cursor: pointer;
+}
+
+.bilety {
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.tekst40 {
+    position: absolute;
+    width: 100%;
+    height: 15px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.tekst41 {
+    position: absolute;
+    width: 100%;
+    height: 15px;
+    top: 80px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.fon__bilety {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    gap: 30px;
+}
+
+.block__bilety {
+    position: absolute;
+    width: 300px;
+    height: 160px;
+    margin-top: 220px;
+    left: 23%;
+    background: #FFFFFF;
+    border: 0.6px solid #666666;
+    border-radius: 10px;
+}
+
+.block__bilety2 {
+    position: absolute;
+    width: 300px;
+    height: 160px;
+    margin-top: 220px;
+    left: 42%;
+    background: #FFFFFF;
+    border: 0.6px solid #666666;
+    border-radius: 10px;
+}
+
+.block__bilety3 {
+    position: absolute;
+    width: 300px;
+    height: 160px;
+    margin-top: 220px;
+    right: 23%;
+    background: #FFFFFF;
+    border: 0.6px solid #666666;
+    border-radius: 10px;
+}
+
+.tekst42 {
+    position: absolute;
+    width: 180px;
+    height: 15px;
+    left: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #8338EC;
+}
+
+.tekst43 {
+    position: absolute;
+    width: 150px;
+    height: 15px;
+    left: 30px;
+    top: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    color: #000000;
+}
+
+.polosa {
+    position: absolute;
+    width: 235px;
+    margin-top: 95px;
+    border: #BABABA;
+}
+
+.galochka {
+    position: absolute;
+    width: 20px;
+    height: 17px;
+    left: 30px;
+    top: 100px
+}
+
+.tekst44 {
+    position: absolute;
+    width: 120px;
+    height: 15px;
+    top: 93px;
+    left: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 10px;
+    text-align: center;
+    color: #4D4D4D;
+}
+
+.kupit {
+    position: absolute;
+    width: 80px;
+    height: 25px;
+    background-color: #8338EC;
+    color: #fff;
+    font-size: 13px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 15px;
+    border: none;
+    top: 125px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    height: 358px;
+    background-color: #8338ec;
+}
+
+.tekst30 {
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: 100px;
+    top: 47px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    color: #fff;
+}
+
+.footer__nav {
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    left: 500px;
+    top: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.footer__list {
+    list-style-type: none;
+    line-height: 50px;
+}   
+
+.footer__link {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+
+.tekst31 {
+    position: absolute;
+    width: 720px;
+    height: 15px;
+    left: 900px;
+    top: 72px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.tekst32 {
+    position: absolute;
+    width: 720px;
+    height: 15px;
+    left: 900px;
+    top: 110px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.icons__footer {
+    position: absolute;
+    display: flex;
+    margin-left: 1400px;
+    gap: 10px;
+}
+
+.footer__kruzhok {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-top: 90px;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.footer__kruzhok .instagram {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-top: 13px;
+    margin-left: 13px;
+}
+
+.footer__kruzhok .vk {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-top: 14px;
+    margin-left: 12px;
+}
+
+.footer__kruzhok .twitter {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-top: 14px;
+    margin-left: 13px;
+}
+
+.footer__kruzhok .telegram {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-top: 14px;
+    margin-left: 11px;
+}
